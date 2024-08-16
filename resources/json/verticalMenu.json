@@ -1,0 +1,10 @@
+{"menu": [
+  {"url":"home", "name":"lang.Dashboard", "slug":"dashboard" ,"permission":"home", "badgeClass": "badge badge-warning badge-pill float-right", "icon":"feather icon-home"},
+  {"url":"#", "name":"lang.users.index", "icon":"feather icon-home",
+      "submenu": [
+          {"url":"users.index", "name":"lang.users.index"},
+          {"url":"users.create", "name":"lang.users.create"}
+      ]
+  }
+]}
+
